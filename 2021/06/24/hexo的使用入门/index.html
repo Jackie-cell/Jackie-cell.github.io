@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Archive: 2021</title>
+    <title>hexo的使用入门 - Modest</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="Fechin,"> 
-    <meta name="description" content="怀一颗诚心,"> 
+    <meta name="description" content="怀一颗诚心,使用hexo new “博客名”命令就能生成文章开头部分，然后可给tags属性赋值，如果有这个标签，则直接放在这个标签的index.md下面，如果没有则会创建一个标签名的文件夹，然后生成一个inde,"> 
     <meta name="author" content="John Doe"> 
     <link rel="alternative" href="atom.xml" title="Modest" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.jpg"> 
@@ -23,57 +23,81 @@
 <body class="loading">
     <span id="config-title" style="display:none">Modest</span>
     <div id="loader"></div>
-    <div id="single" class="page">
-    <div id="top">
-        <a class="iconfont icon-left image-icon" href="javascript:history.back()"></a>
-    </div>
-    <div class="section">
-        <div class="article">
-            <div class="main">
-                <div class="content">
-                    <div class="timeline">
-                      <h2 class="timeline-title">归档: 5篇</h2><hr>
-                      
-                      
-                        
-                          <h3 class="timeline-subtitle">2021</h3>
-                        
-                        <div class="timeline-item">
-                          <time>2021-06-25</time>
-                          <a target="_self" href="/2021/06/25/JavaWeb%E5%88%9D%E7%BA%A7/">JavaWeb初级</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2021-06-24</time>
-                          <a target="_self" href="/2021/06/24/spring%20boot%E9%9B%86%E6%88%90jsp%EF%BC%88%E4%B9%8B%E5%89%8D%E5%87%BA%E4%BA%86%E9%97%AE%E9%A2%98%EF%BC%89/">hexo的使用入门</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2021-06-24</time>
-                          <a target="_self" href="/2021/06/24/hexo%E7%9A%84%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/">hexo的使用入门</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2021-06-24</time>
-                          <a target="_self" href="/2021/06/24/git%E4%B8%8EGitHub%E7%9A%84%E8%BF%9E%E6%8E%A5/">git与GitHub的连接</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2021-06-23</time>
-                          <a target="_self" href="/2021/06/23/hello-world/">Hello World</a>
-                        </div>
-                      
-                    </div>
-                </div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://example.com"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">hexo的使用入门</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
             </div>
+            <div id="qr"></div>
         </div>
     </div>
+    <div class="scrollbar"></div>
 </div>
 
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">hexo的使用入门</h1>
+        <div class="stuff">
+            <span>六月 24, 2021</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/skills/" rel="tag">skills</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <p>使用<code>hexo new “博客名”</code>命令就能生成文章开头部分，然后可给tags属性赋值，如果有这个标签，则直接放在这个标签的index.md下面，如果没有则会创建一个标签名的文件夹，然后生成一个index.md，</p>
+<p>如果是直接在source文件夹下面的_post下面创建md文件，则要在前后添加—，表示为yml格式，再自行加入文章头部信息，</p>
+<p>还有如mp3属性，可以给文章配背景音乐</p>
+<p>想要一些其他属性，可以去GitHub上面找插件，再在主页配置文件(_config.yml)中修改配置</p>
+<p>上传文件时，要使用hexo clean，hexo g，hexo d三个命令，再刷新下网页。</p>
+<p>因为语言设置的是en，所以标签和分类不能用中文的</p>
+<p>点击相应分类，只能到主页这里查看，这个问题未解决。</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                        
+                            <li title='1' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='false'
+        data-ae='false'
+        data-ci=''
+        data-cs=''
+        data-r=''
+        data-o=''
+        data-a=''
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
+    
+</div>
+
+
+    </div>
+</div>
 </body>
 
 
