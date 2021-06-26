@@ -16,6 +16,8 @@
     <link rel="alternative" href="atom.xml" title="Modest" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.jpg"> 
     
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
     
 <link rel="stylesheet" href="/css/diaspora.css">
 
@@ -66,7 +68,7 @@
 </ol>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
                 <source type="audio/mpeg" src="">
             </audio>
             
@@ -85,8 +87,8 @@
         </div>
         
     <div id='gitalk-container' class="comment link"
-		data-enable='false'
-        data-ae='false'
+		data-enable='true'
+        data-ae='true'
         data-ci=''
         data-cs=''
         data-r=''
@@ -98,12 +100,18 @@
 
     </div>
     
+        <div class='side'>
+			<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#spring-boot%E9%9B%86%E6%88%90jsp%EF%BC%88%E4%B9%8B%E5%89%8D%E5%87%BA%E4%BA%86%E9%97%AE%E9%A2%98%EF%BC%89"><span class="toc-number">1.</span> <span class="toc-text">spring boot集成jsp（之前出了问题）</span></a></li></ol>	
+        </div>
+    
 </div>
 
 
     </div>
 </div>
 </body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 
 
 <script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>

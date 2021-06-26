@@ -15,6 +15,8 @@
     <link rel="alternative" href="atom.xml" title="Modest" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.jpg"> 
     
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
     
 <link rel="stylesheet" href="/css/diaspora.css">
 
@@ -126,7 +128,7 @@
 </ol>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
                 <source type="audio/mpeg" src="">
             </audio>
             
@@ -145,8 +147,8 @@
         </div>
         
     <div id='gitalk-container' class="comment link"
-		data-enable='false'
-        data-ae='false'
+		data-enable='true'
+        data-ae='true'
         data-ci=''
         data-cs=''
         data-r=''
@@ -158,12 +160,18 @@
 
     </div>
     
+        <div class='side'>
+			<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#git%E4%B8%8EGitHub%E7%9A%84%E8%BF%9E%E6%8E%A5"><span class="toc-number">1.</span> <span class="toc-text">git与GitHub的连接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%A7%8D%EF%BC%9A%E6%9C%AC%E5%9C%B0%E6%B2%A1%E6%9C%89-git-%E4%BB%93%E5%BA%93"><span class="toc-number">2.</span> <span class="toc-text">第一种：本地没有 git 仓库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%EF%BC%9A%E6%9C%AC%E5%9C%B0%E6%9C%89-Git-%E4%BB%93%E5%BA%93%EF%BC%8C%E5%B9%B6%E4%B8%94%E6%88%91%E4%BB%AC%E5%B7%B2%E7%BB%8F%E8%BF%9B%E8%A1%8C%E4%BA%86%E5%A4%9A%E6%AC%A1-commit-%E6%93%8D%E4%BD%9C"><span class="toc-number">3.</span> <span class="toc-text">第二种：本地有 Git 仓库，并且我们已经进行了多次 commit 操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95%E8%AF%A6%E7%BB%86%E6%AD%A5%E9%AA%A4%EF%BC%9A"><span class="toc-number">4.</span> <span class="toc-text">第一种方法详细步骤：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E6%96%B9%E6%B3%95%E8%AF%A6%E7%BB%86%E6%AD%A5%E9%AA%A4%EF%BC%9A"><span class="toc-number">5.</span> <span class="toc-text">第二种方法详细步骤：</span></a></li></ol>	
+        </div>
+    
 </div>
 
 
     </div>
 </div>
 </body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 
 
 <script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
